@@ -1,6 +1,6 @@
 class StudentsController < ApplicationController
   
   get '/students' do
-    @students = Students.ApplicationController 
+    @students = Students.all  
   end
 end
