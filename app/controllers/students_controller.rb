@@ -1,6 +1,6 @@
 class StudentsController < ApplicationController
   
-  gets '/students' do
+  get '/students' do
     erb :index
   end 
   
